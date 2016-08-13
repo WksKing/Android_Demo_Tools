@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">snowboy_demo</string>
+
+    <string name="snowboy_warn_text">Please say \"hello teddy\"!</string>
 </resources>
