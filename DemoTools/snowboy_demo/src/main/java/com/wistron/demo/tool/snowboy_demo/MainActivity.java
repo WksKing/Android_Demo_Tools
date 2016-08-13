@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         snowboyDetector = new SnowboyDetect(Environment.getExternalStorageDirectory().getAbsolutePath()+"/common.res",
                 /*"/storage/emulated/legacy/snowboy.umdl");*/
                 Environment.getExternalStorageDirectory().getAbsolutePath()+"/hello_teddy.pmdl");
-        snowboyDetector.SetSensitivity("0.34");         // Sensitivity for each hotword
+        snowboyDetector.SetSensitivity("0.5");         // Sensitivity for each hotword
         snowboyDetector.SetAudioGain(1.0f);              // Audio gain for detection
         Log.i(TAG, "NumHotwords = "+snowboyDetector.NumHotwords()+", BitsPerSample = "+snowboyDetector.BitsPerSample()+", NumChannels = "+snowboyDetector.NumChannels()+", SampleRate = "+snowboyDetector.SampleRate());
 
